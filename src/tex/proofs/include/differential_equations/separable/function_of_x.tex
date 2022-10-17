@@ -1,0 +1,11 @@
+\begin{gather*}
+    p_0(x)y' + p_1(x)y = 0 \tag*{$| \frac{1}{p_0(x)}$} \\ \\
+    y' + p(x)y = 0 \tag*{$| p(x) = \frac{p_1(x)}{p_0(x)}$} \\ \\
+    \frac{dy}{dx} + p(x)y = 0 \tag*{$| \frac{dx}{y}$} \\ \\
+    \frac{dy}{y} + p(x)dx = 0 \\ \\
+    \int \frac{dy}{y} + \int p(x)dx = 0 \\ \\
+    \ln |y| = C_0 - \int p(x)dx \\ \\
+    |y| = e^{C_0 - \int p(x)dx} \\ \\
+    |y| = e^{C_0}e^{-\int p(x)dx} \\ \\
+    y = Ce^{-\int p(x)dx} \tag*{$C = \pm e^{C_0}$}
+\end{gather*}
