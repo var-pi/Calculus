@@ -1,4 +1,4 @@
-[Proofs](../Proofs/pdf/proofs.pdf)
+[Proofs](./pdf/proofs.pdf)
 
-[Rules](../Proofs/pdf/rules.pdf)
+[Rules](./pdf/rules.pdf)
 
