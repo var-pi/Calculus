@@ -1,0 +1,19 @@
+
+\begin{gather*}
+    y' + p(x)y = f(x) \tag{recall} \\ \\
+    (e^{-\int p(x)dx})' = -p(x)e^{-\int p(x)dx} \tag{notice} \\ \\
+    y_* = C(x)e^{-\int p(x)dx} \tag{consider} \\
+\end{gather*}
+
+\begin{gather*}
+    y' + p(x)y = f(x) \\ \\
+    (C(x)e^{-\int p(x)dx})' + p(x)C(x)e^{-\int p(x)dx} = f(x) \\ \\
+    C'(x)e^{-\int p(x)dx} + C(x)(-p(x))e^{-\int p(x)dx} + p(x)C(x)e^{-\int p(x)dx} = f(x) \\ \\
+    C'(x)e^{-\int p(x)dx} = f(x) \\ \\
+    C(x) = \int f(x)e^{\int p(x)dx} \\
+\end{gather*}
+
+\begin{gather*}
+    y_* = C(x)e^{-\int p(x)dx} \\ \\
+    \boxed{y_* = e^{-\int p(x)dx}\int f(x)e^{\int p(x)dx}} \\ \\
+\end{gather*}

@@ -1,4 +1,0 @@
-\contentsline {section}{\numberline {1}Differential equations}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Separable}{4}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Function of x as a multiplier}{4}{subsubsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.2}Integration by parts}{5}{subsection.1.2}%
