@@ -11,7 +11,7 @@
     urlcolor=black
 }
 
-
+\setcounter{secnumdepth}{5}
 \begin{document}
     
     \maketitle
@@ -24,8 +24,22 @@
 
     \section{Differential equations}
 
-    \input{include/differential_equations.tex/integration_by_parts.tex}
-    \\ \\
-    \input{include/linear/first_order/particular_solution.tex}
+    \input{include/differential_equations/integration_by_parts.tex}
     
+    \subsection{Linear}
+
+    \subsubsection{First order}
+
+    \input{include/differential_equations/linear/first_order/particular_solution.tex}
+
+    \subsubsection{Second order}
+
+    \input{include/differential_equations/linear/second_order/form.tex}
+    \\ \\
+    \input{include/differential_equations/linear/second_order/different.tex}
+    if $k_1 \not= k_2$ \\
+    \input{include/differential_equations/linear/second_order/duplicat.tex}
+    if $k_1 = k_2$ \\
+    \input{include/differential_equations/linear/second_order/comlex.tex}
+    if $k = \alpha \pm \beta i$
 \end{document}
